@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<link rel="stylesheet" href="http://http://infinite-wave-1945.herokuapp.com/css/app.css">
+		<link rel="stylesheet" href="http://infinite-wave-1945.herokuapp.com/css/app.css">
 
 </head>
 <header class="navigation">
