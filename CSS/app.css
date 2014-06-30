@@ -660,6 +660,7 @@ header.navigation {
     z-index: 9999; }
     @media screen and (min-width: 53.75em) {
       header.navigation ul li {
+        padding-right: 2em;
         background: transparent;
         display: inline;
         line-height: 60px;
@@ -669,14 +670,13 @@ header.navigation {
       font-weight: 400;
       display: inline-block;
       color: rgba(255, 255, 255, 0.7); }
-      @media screen and (min-width: 53.75em) {
-        header.navigation ul li a {
-          padding-right: 1em; } }
       header.navigation ul li a:hover {
         color: white; }
   header.navigation .active-nav-item a {
-    padding-bottom: 3px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+    padding-bottom: 0px;
+    -webkit-box-shadow: inset 0px -2px 0px -1px rgba(255, 255, 255, 0.7);
+    -moz-box-shadow: inset 0px -2px 0px -1px rgba(255, 255, 255, 0.7);
+    box-shadow: inset 0px -2px 0px -1px rgba(255, 255, 255, 0.7); }
   header.navigation li.more {
     padding-right: 0; }
     header.navigation li.more:hover .submenu {
